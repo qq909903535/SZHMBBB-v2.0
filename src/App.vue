@@ -39,7 +39,7 @@
                     <ul>
                         <li class="index">
                             <a href="#" class="">
-                                <span class="out" style="top: 0px;">首页</span>
+                              <router-link to="/index" class="out" style="top: 0px;">首页</router-link>
                             </a>
                         </li>
                         <li class="news">
@@ -80,6 +80,8 @@
             </div>
         </div>
     </div>
+    <!-- 路由的出口 -->
+    <router-view></router-view>
     <!-- 底部 -->
     <div class="footer">
                 <div class="section">
@@ -116,7 +118,6 @@
 </template>
 
 <script>
-// import index from './components/index.vue'
 
 export default {
   // 组件名字 不是必须的 写上会有更好的提示信息
