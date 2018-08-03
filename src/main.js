@@ -6,7 +6,7 @@ import App from './App.vue'
 
 
 // 引入网站的的css
-import css from './assets/statics/site/css/style.css'
+import './assets/statics/site/css/style.css';
 
 // 关闭窗口错误提示
 Vue.config.productionTip = false
