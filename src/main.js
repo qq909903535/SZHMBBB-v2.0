@@ -1,8 +1,13 @@
+// 引入vue
 import Vue from 'vue'
+// 引入App组件
 import App from './App.vue'
 
+// 关闭窗口错误提示
 Vue.config.productionTip = false
 
+// 实例化vue对象
 new Vue({
+  el:'#app',
   render: h => h(App)
-}).$mount('#app')
+})
